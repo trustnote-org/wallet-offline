@@ -1,2 +1,2 @@
-# Offline wallet for Trustnote network
+Offline wallet for Trustnote network
 
