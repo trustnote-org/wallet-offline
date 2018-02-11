@@ -1,0 +1,30 @@
+{
+  "name": "wallet-offline",
+  "description": "Trustnote offline wallet",
+  "author": "Trustnote",
+  "version": "0.1.0",
+  "main": "start.js",
+  "keywords": [
+    "wallet",
+    "headless",
+    "trustnote"
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "https://gitee.com/trustnote/wallet-offline.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/trustnote/wallet-offline/issues"
+  },
+  "browser": {
+    "request": "browser-request",
+    "secp256k1": "secp256k1/js"
+  },
+  "dependencies": {
+    "trustnote-common": "git+https://github.com/trustnote/trustnote-common.git",
+    "bitcore-lib": "^0.13.14",
+    "bitcore-mnemonic": "~1.0.0",
+    "json-rpc2": "^1.0.2"
+  }
+}
